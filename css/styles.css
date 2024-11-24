@@ -1,0 +1,202 @@
+/* Set a fixed width and height for the logo images */
+.logo-img {
+    width: 100px; /* Adjust as needed */
+    height: 100px; /* Adjust as needed */
+    object-fit: contain; /* Ensures the image maintains aspect ratio */
+    margin: 0 auto; /* Centers the image in its column */
+}
+/* Styling for the Follow Me section */
+.follow-img {
+    width: 150px; /* Adjust as needed */
+    height: 150px; /* Adjust as needed */
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.social-icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+/* Responsive layout for mobile */
+@media (max-width: 768px) {
+    .follow-img {
+        margin-bottom: 15px;
+    }
+    .text-center {
+        text-align: center !important;
+    }
+    .text-md-left {
+        text-align: center !important; /* Center text on mobile */
+    }
+}
+/* Skills Section */
+.skill-icon {
+    width: 64px; /* Adjust size of the skill icons */
+    height: 64px;
+    object-fit: contain;
+}
+
+.card {
+    border: none;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Adds a soft shadow for better visual appeal */
+    transition: transform 0.3s ease; /* Smooth scaling effect */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Slight scaling on hover */
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 0.95rem; /* Adjust font size for readability */
+}
+/* Footer Section */
+footer {
+    background-color: #343a40; /* Dark background for footer */
+    color: #ffffff; /* White text */
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #f8f9fa; /* Lighter color on hover */
+}
+
+.footer-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+footer h5 {
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+
+footer p, footer ul {
+    margin-bottom: 0.5rem;
+}
+
+footer ul {
+    padding-left: 0;
+}
+
+footer ul li {
+    list-style: none;
+    margin-bottom: 0.5rem;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+/* Make footer responsive */
+@media (max-width: 768px) {
+    footer {
+        text-align: center;
+    }
+
+    .footer-icon {
+        margin-bottom: 5px;
+    }
+}/* Floating Card for Certificate Count */
+.floating-card {
+    position: relative;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Soft shadow */
+    transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions for hover effect */
+}
+
+.floating-card:hover {
+    transform: translateY(-5px); /* Move up slightly on hover */
+    box-shadow: 0 6px 30px rgba(0, 0, 0, 0.3); /* Enhance shadow on hover */
+}
+
+.certificate-count {
+    font-size: 3rem; /* Large font size for visibility */
+    font-weight: bold;
+    color: #00ff4c; /* Change color as needed */
+}
+
+.count-animation {
+    transition: all 0.5s ease; /* Smooth transition */
+}
+
+/* Quotes Section */
+.quote {
+    font-size: 1.5rem; /* Adjust font size */
+    font-style: italic;
+    color: #555; /* Adjust color */
+    transition: opacity 0.5s ease; /* Smooth transition for quote change */
+}
+.noa{
+    text-decoration: none;
+    text-transform: none;
+    color: black;
+}
+
+/* My Experience Section */
+#experience {
+    font-family: 'Roboto', sans-serif;
+}
+
+#experience h2 {
+    font-weight: bold;
+    color: #212529;
+}
+
+#experience p {
+    font-size: 1rem;
+    color: #6c757d;
+}
+
+.video-wrapper {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+video {
+    border-radius: 10px;
+}
+
+.experience-content {
+    background: #ffffff;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
+}
+
+.experience-content h3 {
+    font-size: 1.5rem;
+    color: #0056b3;
+    font-weight: 600;
+}
+
+.experience-content ul {
+    padding-left: 20px;
+}
+
+.experience-content ul li {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #495057;
+}
+
+.experience-content .btn-primary {
+    background-color: #0056b3;
+    border: none;
+    transition: background-color 0.3s ease;
+}
+
+.experience-content .btn-primary:hover {
+    background-color: #003d80;
+}
